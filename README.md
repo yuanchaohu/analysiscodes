@@ -6,3 +6,5 @@ This package is designed for the post-analysis of computer simulations. Although
 This package requires some additional software for specific calculations. For example, the Voronoi tessellation is conducted by the [Voro++](http://math.lbl.gov/voro++/) package; the DCD type coordinates from Hoomd-blue are read by the [MDanalysis](https://www.mdanalysis.org) package. Therefore, these dependent packages should be installed at first. As mentioned above, these can be changed easily from the module of how to read-in the coordinates.
 
 This package is also applicable for molecules, like polymer. But the center-of-mass or other 'fake' coordinates should be provided by projecting the atom type id to the molecule type id. The simplest way is just extracting the molecular type id for analysis, in the same way as for the atomic type.
+
+A PDF manual has been included in the latest version!
